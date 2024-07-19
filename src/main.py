@@ -2,8 +2,14 @@ import utilities as ut
 import streamlit as st
 
 import subprocess
-subprocess.call(['apt-get', 'update'])
-subprocess.call(['apt-get', 'install', '-y', 'ffmpeg'])
+import sys
+
+def install_ffmpeg():
+    subprocess.check_call([sys.executable, "-m", "pip", "install", "ffmpeg-python"])
+    subprocess.check_call(["apt-get", "update"])
+    subprocess.check_call(["apt-get", "install", "-y", "ffmpeg"])
+
+install_ffmpeg()
 
 if 'login_username' not in st.session_state:
     st.session_state.login_username=[]
