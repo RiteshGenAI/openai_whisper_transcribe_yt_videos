@@ -101,3 +101,4 @@ watchdog==4.0.0
 websockets==12.0
 yarl==1.9.4
 yt-dlp==2024.7.16
+imageio[ffmpeg]
