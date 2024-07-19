@@ -1,14 +1,6 @@
 import utilities as ut
 import streamlit as st
 
-import subprocess
-import sys
-
-def install_dependencies():
-    subprocess.check_call([sys.executable, "-m", "pip", "install", "ffmpeg-python", "imageio[ffmpeg]"])
-
-install_dependencies()
-
 if 'login_username' not in st.session_state:
     st.session_state.login_username=[]
 if 'signup_username' not in st.session_state:
