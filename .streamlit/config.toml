@@ -1,7 +1,3 @@
-[server]
-baseUrlPath = "youtube_video_transcriber"
-runOnSave = true
-
 [theme]
 base = "light"
 primaryColor = "#FFFFFF"
