@@ -68,11 +68,3 @@ This application requires a significant amount of computational resources, espec
 ## License
 
 [MIT License](LICENSE)
-
-## Contributing
-
-<<<<<<< HEAD
-Contributions are welcome! Please feel free to submit a Pull Request.
-=======
-Contributions are welcome! Please feel free to submit a Pull Request.
->>>>>>> 9208dd5 (Pushing Code)
