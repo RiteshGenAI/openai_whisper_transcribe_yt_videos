@@ -1,6 +1,10 @@
 import utilities as ut
 import streamlit as st
 
+import subprocess
+subprocess.call(['apt-get', 'update'])
+subprocess.call(['apt-get', 'install', '-y', 'ffmpeg'])
+
 if 'login_username' not in st.session_state:
     st.session_state.login_username=[]
 if 'signup_username' not in st.session_state:
