@@ -1,0 +1,121 @@
+<style>
+#MainMenu {visibility: hidden;}
+footer {visibility: hidden;}
+header {visibility: hidden;}
+.stImage{
+    margin-top: -5rem;
+    width: 1280px;
+}
+.overflow{
+    inset: 0px;
+}
+[data-testid="element-container"]{
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+}
+.appview-container .main .block-container {
+    padding-top: 0rem;
+    padding-right: 0rem;
+    padding-left: 0rem;
+    padding-bottom: 0rem;
+}
+.st-emotion-cache-12wwu5h e1nzilvr4{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+[data-testid="stVerticalBlock"]{
+    gap: 0.5rem;
+}
+[data-testid="stAppViewBlockContainer"]{
+    padding-top: 0rem;
+    padding-right: 0rem;
+    padding-left: 0rem;
+    padding-bottom: 0rem;
+}
+[data-testid="stMarkdownContainer"]{
+    padding-left: 0px;
+}
+[data-testid="stMarkdown"]{
+    padding-left: 0px;
+}
+[data-testid="stSelectbox"]{
+    padding-left: 100px;
+    padding-right: 900px;
+}
+[data-testid="stForm"]{
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.stTabs [data-baseweb="tab-list"] {
+    gap: 10rem;
+    text-align: center;
+}
+[data-testid="stAlert"]{
+    padding-left: 100px;
+    padding-right: 900px;
+}
+[data-testid="stTabs"]{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    gap: 1px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    text-align: center;
+}
+[data-testid="stHorizontalBlock"] {
+        align-items: center;
+}
+.pre {
+    display: block;
+    font-size: inherit;
+    color: #FFFFFF;
+}
+.pre code {
+    font-size: inherit;
+    color: white;
+    word-break: normal;
+}
+.stChatMessage{
+    background-color: transparent;
+    top: 0rem;
+    bottom: 30rem;
+    padding-left: 100px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    padding-right: 100px;
+    position: relative;
+}
+.stSpinner{
+    padding-left: 100px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    padding-right: 100px;
+    text-align: center;
+}
+.st-emotion-cache-1c7y2kd{
+    flex-direction: row-reverse;
+    text-align: right;
+}
+.stChatFloatingInputContainer{
+    background-color: transparent;
+    padding-top: 10px;
+    padding-bottom: 12px;
+    bottom: -10px;
+    position: fixed;
+}
+.footer{
+    position: fixed;
+    left: 0px;
+    bottom: -10px;
+    width: 100%;
+    background-color: #920a0a;
+    color: #FFFFFF;
+    text-align: center;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+</style>
+<div class="footer">
+<p><a style='display: block; color: #FFFFFF; text-align: center;' href="" target="_blank"> &copy All rights reserved by Ritesh Manish Patil</a></p>
+</div>

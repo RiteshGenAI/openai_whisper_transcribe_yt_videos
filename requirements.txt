@@ -1,0 +1,9 @@
+streamlit
+openai-whisper
+yt-dlp
+pydub
+numpy<2
+tiktoken
+torch
+torchvision
+torchaudio

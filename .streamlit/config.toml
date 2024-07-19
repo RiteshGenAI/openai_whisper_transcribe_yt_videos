@@ -1,0 +1,12 @@
+[server]
+port = 8501
+baseUrlPath = "youtube_video_transcriber"
+runOnSave = true
+
+[theme]
+base = "light"
+primaryColor = "#FFFFFF"
+backgroundColor = "#FFFFFF"
+#secondaryBackgroundColor = "#ff5757"
+textColor = "#111111"
+font = "serif"
