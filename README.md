@@ -12,7 +12,7 @@ This project is a Streamlit-based application that allows users to download audi
 
 ## Requirements
 
-- Python 3.6+
+- Python 3.9+
 - PyTorch
 - yt-dlp
 - whisper
