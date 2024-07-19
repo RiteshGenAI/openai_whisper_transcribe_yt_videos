@@ -1,5 +1,4 @@
 [server]
-port = 8501
 baseUrlPath = "youtube_video_transcriber"
 runOnSave = true
 
