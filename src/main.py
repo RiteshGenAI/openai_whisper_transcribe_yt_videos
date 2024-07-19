@@ -36,7 +36,7 @@ def main():
         try:
             ut.process_audio(video_url)
             # Uncomment the following line if you want to remove the original audio file
-            # os.remove(audio_file)
+            os.remove(audio_file)
 
         except Exception as e:
             print(f"An error occurred: {str(e)}")
