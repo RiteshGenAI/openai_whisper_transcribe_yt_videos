@@ -12,7 +12,7 @@ This project is a Streamlit-based application that allows users to download audi
 
 ## Demo
 
-Check out the demo of the application: [OpenAI Whisper Transcribe YouTube Videos](https://openaiwhispertranscribeytvideos.streamlit.app/)
+Check out the demo of the application: [OpenAI Whisper Transcribe YouTube Videos](https://transcribeytvideos.streamlit.app/)
 
 ## Requirements
 
