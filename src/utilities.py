@@ -16,9 +16,6 @@ def sanitize_filename(filename):
     sanitized = re.sub(r'[^\x00-\x7F]+', '', sanitized)
     # Remove leading and trailing underscores
     sanitized = sanitized.strip('_')
-    # Ensure the filename is not empty
-    if not sanitized:
-        sanitized = "unnamed_file"
     # Trim the filename to 200 characters
     return sanitized[:200]
 
