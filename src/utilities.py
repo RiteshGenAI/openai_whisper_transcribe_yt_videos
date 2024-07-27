@@ -87,7 +87,7 @@ def download_audio(url):
         print(f"An error occurred while downloading/processing the audio: {str(e)}")
         raise
 
-@st.cache_resource
+@st.cache_resource(show_spinner=False)
 def load_whisper_model(model_name="tiny"):
     device = "cuda" if torch.cuda.is_available() else "cpu"
     return whisper.load_model(model_name).to(device)
