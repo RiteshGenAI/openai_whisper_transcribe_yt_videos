@@ -1,13 +1,6 @@
 import utilities as ut
 import streamlit as st
 
-if 'login_username' not in st.session_state:
-    st.session_state.login_username = []
-if 'signup_username' not in st.session_state:
-    st.session_state.signup_username = []
-if 'signup_email' not in st.session_state:
-    st.session_state.signup_email = []
-
 def main():
     st.set_page_config(
         page_title="YouTube Video Transcription",
