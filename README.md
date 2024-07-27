@@ -10,6 +10,10 @@ This project is a Streamlit-based application that allows users to download audi
 - Sanitize filenames for compatibility
 - Support for CUDA acceleration (if available)
 
+## Demo
+
+Check out the demo of the application: [OpenAI Whisper Transcribe YouTube Videos](https://openaiwhispertranscribeytvideos.streamlit.app/)
+
 ## Requirements
 
 - Python 3.9+
