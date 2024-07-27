@@ -24,8 +24,8 @@ This project is a Streamlit-based application that allows users to download audi
 
 1. Clone this repository:
    ```
-   git clone https://github.com/yourusername/youtube-video-transcriber.git
-   cd youtube-video-transcriber
+   git clone https://github.com/RiteshGenAI/openai_whisper_transcribe_yt_videos.git
+   cd openai_whisper_transcribe_yt_videos
    ```
 
 2. Install the required packages:
