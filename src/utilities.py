@@ -27,7 +27,7 @@ def ensure_dir(directory):
     if not os.path.exists(directory):
         os.makedirs(directory)
 
-@st.cache_data
+@st.cache_data(show_spinner=False)
 def download_audio(url):
     audio_dir = os.path.join('data', 'audio')
     ensure_dir(audio_dir)
@@ -95,12 +95,12 @@ def load_whisper_model(model_name="tiny"):
     device = "cuda" if torch.cuda.is_available() else "cpu"
     return whisper.load_model(model_name).to(device)
 
-@st.cache_data
+@st.cache_data(show_spinner=False)
 def transcribe_audio(_model, audio_file):
     result = _model.transcribe(audio_file, fp16=False)
     return result["text"]
 
-@st.cache_data
+@st.cache_data(show_spinner=False)
 def process_transcript(transcript_file, tokens_per_page=1000):
     with open(transcript_file, "r", encoding="utf-8") as f:
         transcript = f.read()
