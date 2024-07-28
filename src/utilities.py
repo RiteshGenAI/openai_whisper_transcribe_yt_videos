@@ -74,7 +74,7 @@ def load_whisper_model(model_name="base"):
     return whisper.load_model(model_name).to(device)
 
 def transcribe_audio(_model, audio_file):
-    result = _model.transcribe(audio_file, fp16=True)
+    result = _model.transcribe(audio_file, fp16=False)
     return result["text"]
 
 def process_transcript(transcript_file, tokens_per_page=1000):
