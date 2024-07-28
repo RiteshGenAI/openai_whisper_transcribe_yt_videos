@@ -52,7 +52,7 @@ header {visibility: hidden;}
 }
 [data-testid="stAlert"]{
     padding-left: 100px;
-    padding-right: 900px;
+    padding-right: 1000px;
 }
 [data-testid="stTabs"]{
     padding-left: 2rem;
