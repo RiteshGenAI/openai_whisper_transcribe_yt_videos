@@ -43,7 +43,7 @@ Check out the demo of the application: [OpenAI Whisper Transcribe YouTube Videos
 
 1. Run the Streamlit app:
    ```
-   streamlit run app.py
+   streamlit run .\src\app.py
    ```
 
 2. Enter a YouTube video URL in the provided input field.
